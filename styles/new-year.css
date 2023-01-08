@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    margin-left: 355px;
+
+
+}
+
+/* banner styles */
+.banner-image{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    min-height: 80vh;
+    min-width: 50%;
+    
+}
+
+.banner-full{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    text-align: center;
+
+}
+
+.banner-sub-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.banner-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+/* main section */
+section{
+    margin-top: 131px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 230px;
+}
+
+.failure-content{
+    margin-top: 239px;
+}
+
+.failure-content ul{
+    list-style: none;
+    line-height: 26px;
+    height: 26px;
+}
+
+.failure-content ul li:before{
+    content: '\2713';
+}
+
+.failure{
+    display: flex;
+    gap: 87px;
+    padding-right: 322px;
+
+}
+
+.failure-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    width: 288px;
+    height: 94px;
+    line-height: 47px;
+}
+
+.failure-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    width: 416px;
+    height: 104px;
+    line-height: 26px;
+}
+
+/* plans style */
+
+.plans-container{
+    display: flex;
+    gap: 86px;
+    margin-top: 55px;
+
+}
+
+.my-plan .section-description{
+    text-align: center;
+}
+
+.plan{
+    background: #FFFFFF;
+    text-align: center;
+
+}
+
+.plan-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.plan-description {
+    color: #737272;
+    ;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55.7px;
+    text-align: center;
+}
+
+/* positive mindset */
+.positive-mindset {
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background-image:
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+        url('../images/gradient2.png'), url('../images/watch.png');
+
+}
+
+.mindset-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 59px;
+    padding-left: 64px;
+    width: 459px;
+    height: 94px;
+    margin-bottom: 24px;
+}
+
+.positive-mindset .btn-secondary {
+    margin-left: 64px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: 0;
+    padding: 20px 36px;
+
+}
+
+
+/* footer styles */
+
+.footer-future {
+    display: flex;
+    gap: 331px;
+    background: #151414;
+    padding: 200px 230px;
+}
+
+.footer-future .footer-title {
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-future input[type="text"],
+input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 21px 20px;
+
+}
+
+.footer-future a {
+    text-decoration: none;
+    padding-right: 17px;
+
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    width: 485px;
+    line-height: 26px;
+}
+
+.sub-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+    width: 123px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.btn-secondary {
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+    width: 170px;
+
+}
